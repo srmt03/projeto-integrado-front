@@ -1,0 +1,255 @@
+/* Reset do sistema */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul, ol {
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+
+/* Estilização do Header */
+header{
+    display: flex;
+    width: 100vw;
+    height: 110px;
+    background-color: #3347B0;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    margin-left: 98px;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 76px;
+}
+.logo-img{
+    height: 76px;
+}
+.logo-txt h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.back{
+    display: flex;
+    color: white;
+    gap: 12px;
+    align-items: center;
+}
+.back i{
+    font-size: 36px;
+}
+.txt h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.link-voltar{
+    margin-right: 98px;
+    height: 40px;
+    width: 150px;
+}
+
+
+
+
+/* Estilização do main */
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.filtro{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #BCC2E5;
+    height: 60px;
+    width: 100vw;
+    font-size: 16px;
+    color: #3347B0;
+}
+.selections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#status-select, #conclusion-select {
+    font-size: 16px;
+    color: #3347B0;
+}
+
+#status-select option, #conclusion-select option{
+    background-color: #3347B0;
+    color: white;
+}
+.legenda{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 340px;
+    font-family: 'Roboto', sans-serif;
+    color: #3347B0;
+}
+.blueBlock{
+    height: 24px;
+    width: 24px;
+    background-color: #3347B0;
+}
+.yellowBlock{
+    height: 24px;
+    width: 24px;
+    background-color: #E5B657;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    gap: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+}
+.title {
+    font-size: 52px;
+    color: #3347B0;
+    font-weight: 500;
+    text-align: center;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 200px;
+    height: 300px;
+    padding: 12px;
+}
+.azul{
+    background-color: #3347B0;
+}
+.amarelo{
+    background-color: #E5B657;
+}
+.student-photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.student-name {
+    text-align: center;
+    color: white;
+}
+
+
+/* Estilização do footer */
+footer{
+    width: 100vw;
+    height: 150px;
+    background-color: #3347B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    flex-grow: 1;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    color: white;
+}
+.img-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.text-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.contato i{
+    font-size: 24px;
+}
+.contato p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.phone{
+    display: flex;
+    gap: 12px;
+}
+.mail{
+    display: flex;
+    gap: 12px;
+}
+.local{
+    display: flex;
+    gap: 12px;
+}
+.rede-social ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rede-social a{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+}
+.rede-social i{
+    font-size: 24px;
+}
+.rede-social a:hover{
+    background-color: white;
+    border-color: white;
+    color: #3347B0;
+    transition: all 0.5s; 
+}

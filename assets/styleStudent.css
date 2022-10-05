@@ -1,0 +1,250 @@
+/* Reset do sistema */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul, ol {
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+
+/* Estilização do Header */
+header{
+    display: flex;
+    width: 100vw;
+    height: 110px;
+    background-color: #3347B0;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    margin-left: 98px;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 76px;
+}
+.logo-img{
+    height: 76px;
+}
+.logo-txt h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.back{
+    display: flex;
+    color: white;
+    gap: 12px;
+    align-items: center;
+}
+.back i{
+    font-size: 36px;
+}
+.txt h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.link-voltar{
+    margin-right: 98px;
+    height: 40px;
+    width: 150px;
+}
+
+
+
+
+
+/* Estilização do Main */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    margin: 96px;
+    flex-grow: 1;
+}
+.profile-aluno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 12px 0px #00000040;
+    min-width: 500px;
+    /* width: fit-content; */
+    height: 500px;
+    padding: 40px;
+    gap: 4px;
+} 
+.aluno-photo {
+    width: 416px;
+    border-radius: 50%;
+}
+.aluno-name {
+    text-shadow: 0 4px 4px 0 #000;
+    color: #3347B0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+.notas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 0px 0px 12px 0px #00000040;
+    height: 500px;
+    min-width: 500px;
+    /* width: fit-content; */
+    padding: 50px;
+}
+
+.subject-nota {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 10px;
+
+}
+
+.progresso {
+    transform: rotate(-90deg);
+    width: 270px;
+    -webkit-appearance: none;
+    border-radius: 12px;
+}
+.progresso::-webkit-progress-bar {
+    background-color: #ebebeb;
+    border-radius: 0.2rem;
+}
+
+.progresso::-webkit-progress-value {
+    background-color: #3347B0;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #3347B0;
+}
+
+.reprovado::-webkit-progress-value {
+    background-color: #C11010;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #C11010;
+}
+
+.exame::-webkit-progress-value {
+    background-color: #E5B657;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #E5B657;
+}
+
+.subject-sigla {
+    font-weight: bolder;
+    color: #3347B0
+}
+
+
+
+
+
+/* Estilização do footer */
+footer{
+    width: 100vw;
+    height: 150px;
+    background-color: #3347B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    flex-grow: 1;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    color: white;
+}
+.img-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.text-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.contato i{
+    font-size: 24px;
+}
+.contato p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.phone{
+    display: flex;
+    gap: 12px;
+}
+.mail{
+    display: flex;
+    gap: 12px;
+}
+.local{
+    display: flex;
+    gap: 12px;
+}
+.rede-social ul{
+    height: 100%;
+    /* width: 48px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rede-social a{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+}
+.rede-social i{
+    font-size: 24px;
+}
+.rede-social a:hover{
+    background-color: white;
+    border-color: white;
+    color: #3347B0;
+    transition: all 0.5s; 
+}
